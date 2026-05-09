@@ -51,13 +51,9 @@
 N = int(input("N = (N: 2~100)"))
 
 
-
 for  i in range(1,10):
+    for j in range(1, N+1):
+        print(f"{j} x {i} = {j * i}", end="\t")
 
-    print((N),"*", i, "=", (N)*i)
-    for j in range(1, 1+N):
-        print(f"{i} x {j} = {i * j}", end="\t")
+        print()
     
-
-
-
