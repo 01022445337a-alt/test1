@@ -30,6 +30,7 @@
         https://lcs1245.tistory.com/entry/Python-List-%EC%9B%90%EC%86%8C-%EC%B6%94%EA%B0%80-%EC%82%AD%EC%A0%9C-append-insert-extend-del-remove
 
 '''
+<<<<<<< HEAD
 def solution(arr):
     count = 0 #짝수 개수
     total = 0 #짝수 합
@@ -43,5 +44,18 @@ def solution(arr):
     return answer                       
             
 result = []            
+=======
+
+def solution(arr):
+    '''     여기에 풀이 작성    '''
+    answer = []
+
+
+    return answer
+
+
+'''     아래는 출력문임    -> solution 함수에 풀이 작성한 후 실행해서 결과 확인하기    '''
+result = []
+>>>>>>> 3a998ca01f3db714beb7442c8531f867c95d5668
 result = solution([1,2,3,4,5,6,7,8,9,10])
 print(result)
