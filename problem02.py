@@ -48,15 +48,11 @@
         1 x 9 = 9       2 x 9 = 18      3 x 9 = 27      4 x 9 = 36      5 x 9 = 45      6 x 9 = 54      7 x 9 = 63      8 x 9 = 72      9 x 9 = 81      10 x 9 = 90
 '''
 
-N = int(input("N = (N: 2~100)"))
 
 
 
 for  i in range(1,10):
-
-    print((N),"*", i, "=", (N)*i)
-    for j in range(1, 1+N):
-        print(f"{i} x {j} = {i * j}", end="\t")
+    print("hi",end="")     
     
 
 
